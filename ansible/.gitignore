@@ -1,0 +1,61 @@
+# Ansible files
+*.pyc
+__pycache__/
+*.egg-info/
+dist/
+build/
+
+# Ansible inventory
+inventory/
+hosts.ini
+hosts.yml
+inventory.ini
+inventory.yml
+
+# SSH keys
+*.pem
+*.key
+!example.pem
+
+# Ansible vault
+.vault_pass
+vault_pass.txt
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Logs
+*.log
+ansible.log
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Secrets and credentials
+.env
+.env.local
+secrets/
+credentials/
+
+# Ansible roles downloaded from galaxy
+roles/galaxy_*
+
+# Temporary files
+*.tmp
+*.bak
+*~
